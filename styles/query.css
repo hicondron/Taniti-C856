@@ -21,7 +21,7 @@ for instance: 600px / 16em = 37.7em
     .features__container {
         width: 100%;
         padding: 8rem 0;
-        padding-bottom: 5rem;
+        /* padding-bottom: 5rem; */
     }
 
     .features {
@@ -51,16 +51,16 @@ for instance: 600px / 16em = 37.7em
     }
 
     .features__card {
-        border: 1px solid rgba(0, 128, 0, 0.151);
+        border: 1px solid rgba(0, 0, 0, 0.151);
         box-shadow: 2px 2px 5px 2px rgba(211, 211, 211, 0.274);
         margin-top: 3rem;
         padding: .5rem;
-        padding-bottom: 5.5rem;
+        /* padding-bottom: 5.5rem; */
         position: relative;
         margin: 2rem;
     }
 
-    .features__h2 {
+    .fas .features__h2 {
         font-size: 1.4rem;
         padding: 1rem 0;
     }
@@ -73,7 +73,7 @@ for instance: 600px / 16em = 37.7em
         padding-bottom: 2rem;
     }
 
-    .features__button {
+    /* .features__button {
         align-items: center;
         background-color: green;
         color: #efefef;
@@ -91,7 +91,7 @@ for instance: 600px / 16em = 37.7em
         left: 0;
         right: 0;
         width: 10rem;
-    }
+    } */
 
     /* ABOUT (RoKo) */
     .about-container {
@@ -221,6 +221,7 @@ for instance: 600px / 16em = 37.7em
     .footer__nav {
         grid-area: l;
         justify-content: space-between;
+        padding: 10px 10px 0 10px;
     }
 
     .footer__social {
@@ -291,7 +292,7 @@ for instance: 600px / 16em = 37.7em
         padding-bottom: 2rem;
     }
 
-    .features__button {
+    /* .features__button {
         align-items: center;
         background-color: green;
         color: #efefef;
@@ -309,7 +310,7 @@ for instance: 600px / 16em = 37.7em
         left: 0;
         right: 0;
         width: 10rem;
-    }
+    } */
 
     .about-container {
         grid-template-columns: 1fr;
@@ -462,7 +463,7 @@ for instance: 600px / 16em = 37.7em
         text-decoration: none;
         font-size: 20px;
         cursor: pointer;
-        background: green;
+        /* background: green; */
         padding: 12px;
         margin-top: 30px;
         border-radius: 10px;
@@ -516,7 +517,7 @@ for instance: 600px / 16em = 37.7em
         text-transform: none;
     }
 
-    .features__button {
+    /* .features__button {
         align-items: center;
         background-color: green;
         color: #fff;
@@ -529,7 +530,7 @@ for instance: 600px / 16em = 37.7em
         text-align: center;
         text-decoration: none;
         width: 10rem;
-    }
+    } */
 
     /* ABOUT */
 
@@ -813,7 +814,7 @@ for instance: 600px / 16em = 37.7em
         line-height: 2.0rem;
     }
 
-    .hero_box a {
+    /* .hero_box a {
         text-decoration: none;
         font-size: 20px;
         cursor: pointer;
@@ -822,7 +823,7 @@ for instance: 600px / 16em = 37.7em
         margin-top: 20px;
         border-radius: 10px;
         color: #fff;
-    }
+    } */
 
     /*SERVICES HERO */
     #services_hero {
@@ -873,25 +874,13 @@ for instance: 600px / 16em = 37.7em
         font-size: 22px;
     }
 
-    .calc_box p {
-        width: 100%;
-        margin: auto;
-        display: flex;
-        padding: 15px;
-        line-height: 1.5;
-        color: #000;
-    }
+ 
 
-    .bottom input {
-        width: 100%;
-    }
+   
 
-    .calc_transactions {
-        display: block;
-        float: none;
-    }
+   
 
     .action h2 {
-        padding: 0 1rem
+        padding: 0 1rem;
     }
 }
