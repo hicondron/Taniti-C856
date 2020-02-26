@@ -221,6 +221,7 @@ for instance: 600px / 16em = 37.7em
     .footer__nav {
         grid-area: l;
         justify-content: space-between;
+        padding: 10px 10px 0 10px;
     }
 
     .footer__social {
@@ -517,6 +518,7 @@ for instance: 600px / 16em = 37.7em
     }
 
  
+ 
 
     /* FOOTER */
     .footer {
@@ -558,7 +560,6 @@ for instance: 600px / 16em = 37.7em
         text-align: center;
     }
 
-   
 
 /* Small phones: from 0 to 480px //*/
 @media only screen and (max-width: 500px) {
@@ -652,8 +653,6 @@ for instance: 600px / 16em = 37.7em
         color: #fff;
         line-height: 2.0rem;
     }
-
-  
 
    
     .action h2 {
