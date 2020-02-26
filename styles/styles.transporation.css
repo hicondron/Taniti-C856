@@ -135,6 +135,7 @@ nav ul li a {
     display: flex;
     flex-direction: row;
 
+
     
 }
 .card-title {
@@ -146,7 +147,9 @@ nav ul li a {
     padding: 0 15em 2em 15em;
 }
 
-
+.card-text {
+    padding: 0 5em;
+}
 
 
 .btn-primary {
