@@ -26,15 +26,15 @@ for instance: 600px / 16em = 37.7em
 
     .features {
         display: block;
-        font-family: sans-serif;
         text-align: center;
+
+
     }
 
     .features__header {
         font-size: 3em;
         line-height: 3rem;
         padding: 0;
-        text-transform: uppercase;
         word-spacing: 1px;
     }
 
@@ -60,7 +60,7 @@ for instance: 600px / 16em = 37.7em
         margin: 2rem;
     }
 
-    .fas .features__h2 {
+    .features__h2 {
         font-size: 1.4rem;
         padding: 1rem 0;
     }

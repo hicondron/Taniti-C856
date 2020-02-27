@@ -26,13 +26,14 @@ for instance: 600px / 16em = 37.7em
 
     .features {
         display: block;
-        font-family: sans-serif;
         text-align: center;
+
+
     }
 
     .features__header {
-        font-size: 3rem;
-        line-height: 1.5rem;
+        font-size: 3em;
+        line-height: 3rem;
         padding: 0;
         word-spacing: 1px;
     }
@@ -42,7 +43,6 @@ for instance: 600px / 16em = 37.7em
         font-weight: normal;
         line-height: 2.2rem;
         margin-bottom: 5rem;
-        padding: 0 5em;
     }
 
     .features__cards {
@@ -60,7 +60,7 @@ for instance: 600px / 16em = 37.7em
         margin: 2rem;
     }
 
-    .fas .features__h2 {
+    .features__h2 {
         font-size: 1.4rem;
         padding: 1rem 0;
     }
@@ -73,7 +73,7 @@ for instance: 600px / 16em = 37.7em
         padding-bottom: 2rem;
     }
 
-
+   
     /* FOOTER */
     .footer {
         font-size: 1rem;
@@ -87,6 +87,7 @@ for instance: 600px / 16em = 37.7em
     .footer__nav {
         grid-area: l;
         justify-content: space-between;
+        padding: 10px 10px 0 10px;
     }
 
     .footer__social {
@@ -106,12 +107,14 @@ for instance: 600px / 16em = 37.7em
     /* FEATURES */
     .features__container {
         padding-top: 5rem;
+        padding: 8rem 0;
     }
 
     .features {
         display: block;
         font-family: sans-serif;
         text-align: center;
+      
     }
 
     .features__header {
@@ -119,8 +122,7 @@ for instance: 600px / 16em = 37.7em
         line-height: 3rem;
         padding: 2.5rem 0;
         text-transform: uppercase;
-        word-spacing: 3px;
-        
+        word-spacing: 1px;
     }
 
     .features__subheader {
@@ -158,8 +160,7 @@ for instance: 600px / 16em = 37.7em
         padding-bottom: 2rem;
     }
 
- 
-
+    
     /* FOOTER */
     .footer {
         font-size: 1rem;
@@ -233,7 +234,6 @@ for instance: 600px / 16em = 37.7em
     /* FEATURES */
     .features {
         display: block;
-        font-family: sans-serif;
         padding-top: 5rem;
         text-align: center;
     }
@@ -242,7 +242,6 @@ for instance: 600px / 16em = 37.7em
         font-size: 3rem;
         line-height: 3rem;
         padding: 2rem 0;
-        text-transform: uppercase;
         word-spacing: 1px;
     }
 
@@ -277,6 +276,7 @@ for instance: 600px / 16em = 37.7em
         text-transform: none;
     }
 
+ 
  
 
     /* FOOTER */
@@ -318,8 +318,7 @@ for instance: 600px / 16em = 37.7em
         padding-top: 2rem;
         text-align: center;
     }
-
-   
+}
 
 /* Small phones: from 0 to 480px //*/
 @media only screen and (max-width: 500px) {
@@ -413,5 +412,5 @@ for instance: 600px / 16em = 37.7em
         color: #fff;
         line-height: 2.0rem;
     }
-}
+
 }
