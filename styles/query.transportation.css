@@ -157,113 +157,8 @@ for instance: 600px / 16em = 37.7em
         padding-bottom: 2rem;
     }
 
-    /* .features__button {
-        align-items: center;
-        background-color: green;
-        color: #efefef;
-        display: flex;
-        font-size: 1.1rem;
-        height: 3rem;
-        justify-content: center;
-        letter-spacing: .5px;
-        line-height: 1.1rem;
-        margin: 4rem auto;
-        text-align: center;
-        text-decoration: none;
-        position: absolute;
-        bottom: -42px;
-        left: 0;
-        right: 0;
-        width: 10rem;
-    } */
+ 
 
-    .about-container {
-        grid-template-columns: 1fr;
-    }
-
-    .about__bank {
-        display: grid;
-        grid-template-columns: 1fr;
-        padding: 7rem 0;
-    }
-
-    .about__image {
-        align-self: center;
-        max-width: 700px;
-        justify-self: center;
-    }
-
-    .about__header {
-        font-size: 2.5rem;
-        margin: auto;
-        width: 90vw;
-    }
-
-    .about__text {
-        margin: auto;
-        text-align: left;
-        padding-bottom: 3rem;
-        padding-top: 3rem;
-        width: 90vw;
-    }
-
-    .about__button {
-        padding-top: 4rem;
-        width: 80vw;
-        margin: auto;
-    }
-
-    /* MISSION */
-    .mission__header {
-        color: hsla(43, 30%, 100%, 1);
-        font-size: 1.6rem;
-        margin: auto;
-        text-align: left;
-        width: 80vw;
-    }
-
-    .mission__text {
-        color: hsla(41, 31%, 100%, 0.692);
-        margin: auto;
-    }
-
-    /* FACULTY */
-    .faculty__header {
-        font-size: 2rem;
-    }
-
-    .faculty {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        padding-bottom: 5rem;
-    }
-
-    .faculty__person {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .faculty__image {
-        width: 220px;
-        max-width: 320px;
-    }
-
-    .faculty__name {
-        font-weight: 600;
-    }
-
-    .faculty__title {
-        font-weight: 400;
-    }
-
-    .faculty__text {
-        text-align: center;
-    }
-
-    .faculty__social {
-        padding-bottom: 7rem;
-    }
 
     /* FOOTER */
     .footer {
@@ -335,56 +230,7 @@ for instance: 600px / 16em = 37.7em
         color: #fff;
     }
 
-    /* FEATURES */
-    /* .features {
-        display: grid;
-        font-family: sans-serif;
-        padding-top: 5rem;
-        text-align: center;
-    }
-
-    .features__header {
-        font-size: 3rem;
-        line-height: 3rem;
-        padding: 2rem 0;
-        text-transform: uppercase;
-        word-spacing: 1px;
-    }
-
-    .features__subheader {
-        font-size: 1.4rem;
-        font-weight: normal;
-        line-height: 2.2rem;
-        margin-bottom: 3rem;
-    }
-
-    .features__cards {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        justify-items: center;
-    }
-
-    .features__card {
-        margin-bottom: 0rem;
-        max-width: 350px;
-    }
-
-    .features__h2 {
-        font-size: 1.9rem;
-        padding: 1.5rem;
-    }
-
-    .features__h3 {
-        font-size: 1.3rem;
-        font-weight: normal;
-        line-height: 40px;
-        padding-bottom: 3rem;
-        text-transform: none;
-    }
-
-  */ */
-
+    
     /* FOOTER */
     .footer {
         font-size: 1.2rem;
@@ -520,11 +366,5 @@ for instance: 600px / 16em = 37.7em
         line-height: 2.0rem;
     }
 
-  
-
-   
-    .action h2 {
-        padding: 0 1rem;
-    }
 }
 }

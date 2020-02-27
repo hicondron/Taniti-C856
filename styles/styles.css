@@ -107,7 +107,7 @@ nav ul li a {
 }
 
 .hero_box h2 {
-    font-size: 48px;
+    font-size: 42px;
     margin-bottom: 20px;
     color: #fff;
     padding-bottom: 5rem;
@@ -117,7 +117,7 @@ nav ul li a {
 }
 .hero_box p {
     font-size: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 2em;
     color: #fff;
     padding-bottom: 5rem;
     line-height: 2rem;
@@ -125,6 +125,9 @@ nav ul li a {
     word-spacing: 1px;
 }
 
+.form {
+    padding: 0 0 3em 0;
+}
 
 /*  CALL TO ACTION SECTION */
 .action {
@@ -132,7 +135,8 @@ nav ul li a {
     justify-content: space-around;
     flex-flow: wrap;
     background-color: rgb(45, 39, 24, 0.1);
-    height: 85vh;
+   ]
+   
 }
 
 
@@ -146,7 +150,6 @@ nav ul li a {
     font-family: sans-serif;
     text-transform: uppercase;
     align-self: center;
-    padding-top: 2em;
     text-align: center;
     line-height: 3em;
 }
@@ -212,51 +215,7 @@ label {
     color: black;
 }
 
-.modal button {
-    position: relative;
-    height: 45px;
-    width: auto;
-    margin: 10px 7px;
-    padding: 5px 5px;
-    font-weight: 700;
-    font-size: 15px;
-    letter-spacing: 2px;
-    color: #383736;
-    border: 2px #383736 solid;
-    border-radius: 4px;
-    text-transform: uppercase;
-    outline: 0;
-    overflow: hidden;
-    background: none;
-    z-index: 1;
-    cursor: pointer;
-    transition: 0.08s ease-in;
-    -o-transition: 0.08s ease-in;
-    -ms-transition: 0.08s ease-in;
-    -moz-transition: 0.08s ease-in;
-    -webkit-transition: 0.08s ease-in;
-}
 
-.modal button:before {
-    content: "";
-    position: absolute;
-    background: #383736;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 100%;
-    z-index: -1;
-    -webkit-transition: top 0.09s ease-in;
-    transition: top 0.09s ease-in;
-}
-
-.modal button:hover {
-    color: whitesmoke;
-}
-
-.modal button:hover:before {
-    top: 0;
-}
 
 b {
     font-size: 32px;
@@ -283,7 +242,7 @@ textarea {
 
 
 .features__container {
-    width: 100%;
+    width: 60%;
     padding: 4rem 0;
 }
 

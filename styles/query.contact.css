@@ -213,58 +213,7 @@ for instance: 600px / 16em = 37.7em
         margin: auto;
     }
 
-    /* MISSION */
-    .mission__header {
-        color: hsla(43, 30%, 100%, 1);
-        font-size: 1.6rem;
-        margin: auto;
-        text-align: left;
-        width: 80vw;
-    }
-
-    .mission__text {
-        color: hsla(41, 31%, 100%, 0.692);
-        margin: auto;
-    }
-
-    /* FACULTY */
-    .faculty__header {
-        font-size: 2rem;
-    }
-
-    .faculty {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        padding-bottom: 5rem;
-    }
-
-    .faculty__person {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .faculty__image {
-        width: 220px;
-        max-width: 320px;
-    }
-
-    .faculty__name {
-        font-weight: 600;
-    }
-
-    .faculty__title {
-        font-weight: 400;
-    }
-
-    .faculty__text {
-        text-align: center;
-    }
-
-    .faculty__social {
-        padding-bottom: 7rem;
-    }
-
+  
     /* FOOTER */
     .footer {
         font-size: 1rem;

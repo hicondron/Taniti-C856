@@ -31,10 +31,9 @@ for instance: 600px / 16em = 37.7em
     }
 
     .features__header {
-        font-size: 3.8rem;
-        line-height: 3rem;
+        font-size: 3rem;
+        line-height: 1.5rem;
         padding: 0;
-        text-transform: uppercase;
         word-spacing: 1px;
     }
 
@@ -43,6 +42,7 @@ for instance: 600px / 16em = 37.7em
         font-weight: normal;
         line-height: 2.2rem;
         margin-bottom: 5rem;
+        padding: 0 5em;
     }
 
     .features__cards {
@@ -73,140 +73,6 @@ for instance: 600px / 16em = 37.7em
         padding-bottom: 2rem;
     }
 
-    /* .features__button {
-        align-items: center;
-        background-color: green;
-        color: #efefef;
-        display: flex;
-        font-size: 1.1rem;
-        height: 3rem;
-        justify-content: center;
-        letter-spacing: .5px;
-        line-height: 1.1rem;
-        margin: 4rem auto;
-        text-align: center;
-        text-decoration: none;
-        position: absolute;
-        bottom: -20px;
-        left: 0;
-        right: 0;
-        width: 10rem;
-    } */
-
-    /* ABOUT (RoKo) */
-    .about-container {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .about {
-        padding-bottom: 10rem;
-    }
-
-    .about__bank {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        padding: 5rem 0;
-    }
-
-    .about__image {
-        align-self: center;
-        max-width: 600px;
-        width: 95%;
-        justify-self: center;
-        padding-top: 0;
-    }
-
-    .about__info {
-        width: 60vw;
-    }
-
-    .about__header {
-        font-size: 2.5rem;
-        margin: auto;
-        padding-bottom: 3rem;
-        padding-left: 3rem;
-        text-align: left;
-        width: 60vw;
-    }
-
-    .about__text {
-        margin: auto;
-        padding-top: 1rem;
-        text-align: left;
-        width: 55vw;
-    }
-
-    /* MISSION */
-    .mission__header {
-        color: hsla(43, 30%, 100%, 1);
-        font-size: 2rem;
-        text-align: center;
-    }
-
-    .mission__text {
-        color: hsla(41, 31%, 100%, 0.692);
-        letter-spacing: 2.5px;
-        margin: auto;
-    }
-
-    .about__button {
-        padding-top: 4rem;
-        text-align: center;
-    }
-
-    .about__link {
-        background-color: hsla(43, 30%, 88%, 1);
-        border: 1px solid #efefef;
-        border-radius: 4px;
-        color: rgb(22, 21, 19);
-        display: inline-block;
-        font-size: 1.3rem;
-        font-weight: 900;
-        padding: 15px;
-        transition: 0.08s ease-in;
-        -o-transition: 0.08s ease-in;
-        -ms-transition: 0.08s ease-in;
-        -moz-transition: 0.08s ease-in;
-        -webkit-transition: 0.08s ease-in;
-        text-decoration: none;
-    }
-
-    /* FACULTY */
-    .faculty__header {
-        font-size: 2rem;
-    }
-
-    .faculty {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-    }
-
-    .faculty__person {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .faculty__image {
-        width: 220px;
-        max-width: 300px;
-    }
-
-    .faculty__name {
-        font-weight: 600;
-    }
-
-    .faculty__title {
-        font-weight: 400;
-    }
-
-    .faculty__text {
-        text-align: center;
-    }
-
-    .faculty__social {
-        padding-bottom: 10rem;
-    }
 
     /* FOOTER */
     .footer {
@@ -253,7 +119,8 @@ for instance: 600px / 16em = 37.7em
         line-height: 3rem;
         padding: 2.5rem 0;
         text-transform: uppercase;
-        word-spacing: 1px;
+        word-spacing: 3px;
+        
     }
 
     .features__subheader {
@@ -291,113 +158,7 @@ for instance: 600px / 16em = 37.7em
         padding-bottom: 2rem;
     }
 
-    /* .features__button {
-        align-items: center;
-        background-color: green;
-        color: #efefef;
-        display: flex;
-        font-size: 1.1rem;
-        height: 3rem;
-        justify-content: center;
-        letter-spacing: .5px;
-        line-height: 1.1rem;
-        margin: 4rem auto;
-        text-align: center;
-        text-decoration: none;
-        position: absolute;
-        bottom: -42px;
-        left: 0;
-        right: 0;
-        width: 10rem;
-    } */
-
-    .about-container {
-        grid-template-columns: 1fr;
-    }
-
-    .about__bank {
-        display: grid;
-        grid-template-columns: 1fr;
-        padding: 7rem 0;
-    }
-
-    .about__image {
-        align-self: center;
-        max-width: 700px;
-        justify-self: center;
-    }
-
-    .about__header {
-        font-size: 2.5rem;
-        margin: auto;
-        width: 90vw;
-    }
-
-    .about__text {
-        margin: auto;
-        text-align: left;
-        padding-bottom: 3rem;
-        padding-top: 3rem;
-        width: 90vw;
-    }
-
-    .about__button {
-        padding-top: 4rem;
-        width: 80vw;
-        margin: auto;
-    }
-
-    /* MISSION */
-    .mission__header {
-        color: hsla(43, 30%, 100%, 1);
-        font-size: 1.6rem;
-        margin: auto;
-        text-align: left;
-        width: 80vw;
-    }
-
-    .mission__text {
-        color: hsla(41, 31%, 100%, 0.692);
-        margin: auto;
-    }
-
-    /* FACULTY */
-    .faculty__header {
-        font-size: 2rem;
-    }
-
-    .faculty {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        padding-bottom: 5rem;
-    }
-
-    .faculty__person {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .faculty__image {
-        width: 220px;
-        max-width: 320px;
-    }
-
-    .faculty__name {
-        font-weight: 600;
-    }
-
-    .faculty__title {
-        font-weight: 400;
-    }
-
-    .faculty__text {
-        text-align: center;
-    }
-
-    .faculty__social {
-        padding-bottom: 7rem;
-    }
+ 
 
     /* FOOTER */
     .footer {
@@ -651,13 +412,6 @@ for instance: 600px / 16em = 37.7em
         margin-bottom: 40px;
         color: #fff;
         line-height: 2.0rem;
-    }
-
-  
-
-   
-    .action h2 {
-        padding: 0 1rem;
     }
 }
 }
