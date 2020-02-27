@@ -150,6 +150,108 @@ textarea {
 }
 
 
+/*  CALL TO ACTION SECTION */
+.action {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    background-color: rgb(45, 39, 24, 0.1);
+}
+   
+
+
+
+.action label {
+    padding-left: 20px;
+}
+
+.action h2 {
+    font-size: 48px;
+    color: #383736;
+    align-self: center;
+    text-align: center;
+    line-height: 3em;
+}
+
+.action p {
+    font-size: 24px;
+    color: #383736;
+    align-self: center;
+    text-align: center;
+    line-height: 3em;
+}
+
+
+/* BUTTON HOVER */
+.action button {
+    position: relative;
+    height: 45px;
+    width: auto;
+    padding: 5px 5px;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #383736;
+    border: 2px #383736 solid;
+    border-radius: 4px;
+
+    outline: 0;
+    overflow: hidden;
+    background: none;
+    z-index: 1;
+    cursor: pointer;
+    transition: 0.08s ease-in;
+    -o-transition: 0.08s ease-in;
+    -ms-transition: 0.08s ease-in;
+    -moz-transition: 0.08s ease-in;
+    -webkit-transition: 0.08s ease-in;
+    width: 10rem;
+   
+}
+
+.action .button {
+    text-align: center;
+}
+
+.action button:before {
+    content: "";
+    position: absolute;
+    background: #383736;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 100%;
+    z-index: -1;
+    -webkit-transition: top 0.09s ease-in;
+    transition: top 0.09s ease-in;
+}
+
+.action button:hover {
+    color: whitesmoke;
+}
+
+.action button:hover:before {
+    top: 0;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 28px;
+    color: black;
+}
+
+
+
+b {
+    font-size: 32px;
+    font-weight: bolder;
+    padding-bottom: 28px;
+    color: black;
+    text-align: center;
+}
+
 
 /* FOOTER */
 .footer {

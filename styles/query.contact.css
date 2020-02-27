@@ -177,43 +177,7 @@ for instance: 600px / 16em = 37.7em
         width: 10rem;
     } */
 
-    .about-container {
-        grid-template-columns: 1fr;
-    }
-
-    .about__bank {
-        display: grid;
-        grid-template-columns: 1fr;
-        padding: 7rem 0;
-    }
-
-    .about__image {
-        align-self: center;
-        max-width: 700px;
-        justify-self: center;
-    }
-
-    .about__header {
-        font-size: 2.5rem;
-        margin: auto;
-        width: 90vw;
-    }
-
-    .about__text {
-        margin: auto;
-        text-align: left;
-        padding-bottom: 3rem;
-        padding-top: 3rem;
-        width: 90vw;
-    }
-
-    .about__button {
-        padding-top: 4rem;
-        width: 80vw;
-        margin: auto;
-    }
-
-  
+    
     /* FOOTER */
     .footer {
         font-size: 1rem;
