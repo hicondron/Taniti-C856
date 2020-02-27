@@ -158,9 +158,6 @@ textarea {
     background-color: rgb(45, 39, 24, 0.1);
 }
    
-
-
-
 .action label {
     padding-left: 20px;
 }
@@ -170,7 +167,7 @@ textarea {
     color: #383736;
     align-self: center;
     text-align: center;
-    line-height: 3em;
+    line-height: 2em;
 }
 
 .action p {
@@ -210,6 +207,7 @@ textarea {
 }
 
 .action .button {
+    padding-top: 1.5em;
     text-align: center;
 }
 
