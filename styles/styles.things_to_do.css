@@ -18,8 +18,8 @@ body {
 /* DESGIN FOR HEADER SECTION */
 
 header {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/things_to_do_main.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/things_to_do_main.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/things-to-do.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/things-to-do.jpg);
     overflow: hidden;
     background-position: center;
     background-size: cover;
