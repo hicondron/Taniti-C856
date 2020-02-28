@@ -18,13 +18,13 @@ body {
 /* DESGIN FOR HEADER SECTION */
 
 header {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/taniti-main.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/taniti-main.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/transportation.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/transportation.jpg);
     overflow: hidden;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 115vh;
+    height: 100vh;
     background-attachment: fixed;
 }
 
@@ -100,14 +100,14 @@ nav ul li a {
 
 .hero_box .hero_h1 {
     font-size: 60px;
-    padding-top: 60px;
+    padding-top: 2em;
     padding-bottom: 40px;
     color: #fff;
     line-height: 5rem;
 }
 
 .hero_box h2 {
-    font-size: 42px;
+    font-size: 48px;
     margin-bottom: 20px;
     color: #fff;
     padding-bottom: 5rem;
@@ -117,7 +117,7 @@ nav ul li a {
 }
 .hero_box p {
     font-size: 24px;
-    margin-bottom: 2em;
+    margin-bottom: 20px;
     color: #fff;
     padding-bottom: 5rem;
     line-height: 2rem;
@@ -125,100 +125,36 @@ nav ul li a {
     word-spacing: 1px;
 }
 
-.form {
-    padding: 0 0 3em 0;
-}
+.features_title {
+        text-align: center;
+        padding: 1em 3em; 
+        font-size: 24px;
+    }
 
-/*  CALL TO ACTION SECTION */
-.action {
+.card {
     display: flex;
-    justify-content: space-around;
-    flex-flow: wrap;
-    background-color: rgb(45, 39, 24, 0.1);
-}
+    flex-direction: row;
 
-.action label {
-    padding-left: 20px;
-}
 
-.action h2 {
-    font-size: 48px;
-    color: #383736;
-    font-family: sans-serif;
-    text-transform: uppercase;
-    align-self: center;
+    
+}
+.card-title {
     text-align: center;
-    line-height: 3em;
+    padding-top: 2em;
+}
+
+.card-deck {
+    padding: 0 15em 2em 15em;
+}
+
+.card-text {
+    padding: 0 5em;
 }
 
 
-/* BUTTON HOVER */
-.action button {
-    position: relative;
-    height: 45px;
-    width: auto;
-    padding: 5px 5px;
-    font-weight: 700;
-    font-size: 15px;
-    letter-spacing: 2px;
-    color: #383736;
-    border: 2px #383736 solid;
-    border-radius: 4px;
-    text-transform: uppercase;
-    outline: 0;
-    overflow: hidden;
-    background: none;
-    z-index: 1;
-    cursor: pointer;
-    transition: 0.08s ease-in;
-    -o-transition: 0.08s ease-in;
-    -ms-transition: 0.08s ease-in;
-    -moz-transition: 0.08s ease-in;
-    -webkit-transition: 0.08s ease-in;
-    width: 10rem;
-   
-}
-
-.action .button {
-    text-align: center;
-}
-
-.action button:before {
-    content: "";
-    position: absolute;
-    background: #383736;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 100%;
-    z-index: -1;
-    -webkit-transition: top 0.09s ease-in;
-    transition: top 0.09s ease-in;
-}
-
-.action button:hover {
-    color: whitesmoke;
-}
-
-.action button:hover:before {
-    top: 0;
-}
-
-label {
-    font-size: 16px;
-    font-weight: bolder;
-    text-align: center;
-    padding-bottom: 28px;
-    color: black;
-}
-
-
-
-b {
-    font-size: 32px;
-    font-weight: bolder;
-    padding-bottom: 28px;
-    color: black;
+.btn-primary {
+    display: flex; 
+    justify-content: center;
     text-align: center;
 }
 
@@ -237,36 +173,6 @@ textarea {
     font-size: 12px;
 }
 
-
-.features__container {
-    width: 100%;
-    padding: 4rem 0;
-}
-
-.features {
-    max-width: 85vw;
-    margin: auto;
-
-    
-}
-
-.features__cards {
-    grid-gap: 1rem;
-}
-
-.features,
-.features__header,
-.features__subheader,
-.features__cards,
-.footer__nav {
-    color: #333;
-}
-
-.features__image {
-    display: block;
-    height: auto;
-    width: 100%;
-}
 
 
 
@@ -330,4 +236,3 @@ textarea {
 .footer p {
     align-self: center;
 }
-
