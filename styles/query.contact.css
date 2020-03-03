@@ -20,8 +20,8 @@ for instance: 600px / 16em = 37.7em
     /* FEATURES */
     .features__container {
         width: 100%;
-        padding: 8rem 0;
-        /* padding-bottom: 5rem; */
+        padding: 8em 0;
+        /* padding-bottom: 5em; */
     }
 
     .features {
@@ -31,18 +31,18 @@ for instance: 600px / 16em = 37.7em
     }
 
     .features__header {
-        font-size: 3.8rem;
-        line-height: 3rem;
+        font-size: 3.8em;
+        line-height: 3em;
         padding: 0;
         text-transform: uppercase;
         word-spacing: 1px;
     }
 
     .features__subheader {
-        font-size: 1.4rem;
+        font-size: 1.4em;
         font-weight: normal;
-        line-height: 2.2rem;
-        margin-bottom: 5rem;
+        line-height: 2.2em;
+        margin-bottom: 5em;
     }
 
     .features__cards {
@@ -53,35 +53,35 @@ for instance: 600px / 16em = 37.7em
     .features__card {
         border: 1px solid rgba(0, 0, 0, 0.151);
         box-shadow: 2px 2px 5px 2px rgba(211, 211, 211, 0.274);
-        margin-top: 3rem;
-        padding: .5rem;
-        /* padding-bottom: 5.5rem; */
+        margin-top: 3em;
+        padding: .5em;
+        /* padding-bottom: 5.5em; */
         position: relative;
-        margin: 2rem;
+        margin: 2em;
     }
 
     .fas .features__h2 {
-        font-size: 1.4rem;
-        padding: 1rem 0;
+        font-size: 1.4em;
+        padding: 1em 0;
     }
 
     .features__h3 {
-        font-size: 1rem;
+        font-size: 1em;
         font-weight: normal;
-        line-height: 1.5rem;
+        line-height: 1.5em;
         text-transform: none;
-        padding-bottom: 2rem;
+        padding-bottom: 2em;
     }
    
 
     /* FOOTER */
     .footer {
-        font-size: 1rem;
+        font-size: 1em;
         grid-template-areas:
             ". l . s ."
             ". . c . .";
-        padding-bottom: 1.5rem;
-        padding-top: 3rem;
+        padding-bottom: 1.5em;
+        padding-top: 3em;
     }
 
     .footer__nav {
@@ -95,7 +95,7 @@ for instance: 600px / 16em = 37.7em
 
     .footer__copyright {
         grid-area: c;
-        padding-top: 2rem;
+        padding-top: 2em;
     }
 }
 
@@ -105,7 +105,7 @@ for instance: 600px / 16em = 37.7em
 
     /* FEATURES */
     .features__container {
-        padding-top: 5rem;
+        padding-top: 5em;
     }
 
     .features {
@@ -115,18 +115,18 @@ for instance: 600px / 16em = 37.7em
     }
 
     .features__header {
-        font-size: 3.8rem;
-        line-height: 3rem;
-        padding: 2.5rem 0;
+        font-size: 3.8em;
+        line-height: 3em;
+        padding: 2.5em 0;
         text-transform: uppercase;
         word-spacing: 1px;
     }
 
     .features__subheader {
-        font-size: 1.4rem;
+        font-size: 1.4em;
         font-weight: normal;
-        line-height: 2.2rem;
-        margin-bottom: 1rem;
+        line-height: 2.2em;
+        margin-bottom: 1em;
     }
 
     .features__cards {
@@ -137,24 +137,24 @@ for instance: 600px / 16em = 37.7em
     .features__card {
         border: 1px solid rgba(0, 128, 0, 0.151);
         box-shadow: 2px 2px 5px 2px rgba(211, 211, 211, 0.589);
-        margin-top: 3rem;
-        padding: .5rem;
-        padding-bottom: 3.5rem;
+        margin-top: 3em;
+        padding: .5em;
+        padding-bottom: 3.5em;
         position: relative;
     }
 
     .features__h2 {
-        font-size: 0.95rem;
-        padding: 0.5rem 0;
-        padding-top: 1rem;
+        font-size: 0.95em;
+        padding: 0.5em 0;
+        padding-top: 1em;
     }
 
     .features__h3 {
-        font-size: 0.9rem;
+        font-size: 0.9em;
         font-weight: normal;
-        line-height: 1.4rem;
+        line-height: 1.4em;
         text-transform: none;
-        padding-bottom: 2rem;
+        padding-bottom: 2em;
     }
 
     /* .features__button {
@@ -162,30 +162,30 @@ for instance: 600px / 16em = 37.7em
         background-color: green;
         color: #efefef;
         display: flex;
-        font-size: 1.1rem;
-        height: 3rem;
+        font-size: 1.1em;
+        height: 3em;
         justify-content: center;
         letter-spacing: .5px;
-        line-height: 1.1rem;
-        margin: 4rem auto;
+        line-height: 1.1em;
+        margin: 4em auto;
         text-align: center;
         text-decoration: none;
         position: absolute;
         bottom: -42px;
         left: 0;
         right: 0;
-        width: 10rem;
+        width: 10em;
     } */
 
     
     /* FOOTER */
     .footer {
-        font-size: 1rem;
+        font-size: 1em;
         grid-template-areas:
             ". l . s ."
             ". c c c .";
-        padding-bottom: 1.5rem;
-        padding-top: 3rem;
+        padding-bottom: 1.5em;
+        padding-top: 3em;
     }
 
     .footer__nav {
@@ -200,7 +200,7 @@ for instance: 600px / 16em = 37.7em
 
     .footer__copyright {
         grid-area: c;
-        padding-top: 2rem;
+        padding-top: 2em;
         text-align: center;
     }
 }
@@ -252,23 +252,23 @@ for instance: 600px / 16em = 37.7em
     .features {
         display: block;
         font-family: sans-serif;
-        padding-top: 5rem;
+        padding-top: 5em;
         text-align: center;
     }
 
     .features__header {
-        font-size: 3rem;
-        line-height: 3rem;
-        padding: 2rem 0;
+        font-size: 3em;
+        line-height: 3em;
+        padding: 2em 0;
         text-transform: uppercase;
         word-spacing: 1px;
     }
 
     .features__subheader {
-        font-size: 1.4rem;
+        font-size: 1.4em;
         font-weight: normal;
-        line-height: 2.2rem;
-        margin-bottom: 3rem;
+        line-height: 2.2em;
+        margin-bottom: 3em;
     }
 
     .features__cards {
@@ -278,20 +278,20 @@ for instance: 600px / 16em = 37.7em
     }
 
     .features__card {
-        margin-bottom: 0rem;
+        margin-bottom: 0em;
         max-width: 350px;
     }
 
     .features__h2 {
-        font-size: 1.9rem;
-        padding: 1.5rem;
+        font-size: 1.9em;
+        padding: 1.5em;
     }
 
     .features__h3 {
-        font-size: 1.3rem;
+        font-size: 1.3em;
         font-weight: normal;
         line-height: 40px;
-        padding-bottom: 3rem;
+        padding-bottom: 3em;
         text-transform: none;
     }
 
@@ -299,12 +299,12 @@ for instance: 600px / 16em = 37.7em
 
     /* FOOTER */
     .footer {
-        font-size: 1.2rem;
+        font-size: 1.2em;
         grid-template-areas:
             ". l l l ."
             ". s s s ."
             ". c c c .";
-        padding-bottom: 1.5rem;
+        padding-bottom: 1.5em;
         padding-top: 0;
     }
 
@@ -314,26 +314,26 @@ for instance: 600px / 16em = 37.7em
         flex-direction: column;
         grid-area: l;
         grid-template-columns: 1fr;
-        height: 10rem;
-        margin-bottom: 4rem;
-        margin-top: 4rem;
+        height: 10em;
+        margin-bottom: 4em;
+        margin-top: 4em;
     }
 
     .footer__list {
         align-items: space-between;
         justify-content: space-between;
-        margin-top: 1.5rem
+        margin-top: 1.5em
     }
 
     .footer__social {
         grid-area: s;
-        margin-top: 4rem;
+        margin-top: 4em;
         justify-content: center;
     }
 
     .footer__copyright {
         grid-area: c;
-        padding-top: 2rem;
+        padding-top: 2em;
         text-align: center;
     }
 
@@ -355,7 +355,7 @@ for instance: 600px / 16em = 37.7em
         width: 100%;
         margin: auto;
         padding-top: 1em;
-        padding-bottom: 3rem;
+        padding-bottom: 3em;
     }
 
     .logo {
@@ -422,21 +422,21 @@ for instance: 600px / 16em = 37.7em
         margin-bottom: 20px;
         color: #fff;
         text-align: center;
-        line-height: 3rem;
+        line-height: 3em;
     }
 
     .hero_box p {
         font-size: 20px;
         margin-bottom: 40px;
         color: #fff;
-        line-height: 2.0rem;
+        line-height: 2.0em;
     }
 
   
 
    
     .action h2 {
-        padding: 0 1rem;
+        padding: 0 1em;
     }
 }
 }
